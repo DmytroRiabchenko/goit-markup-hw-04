@@ -394,6 +394,62 @@ img {
   color: #ffffff;
 }
 
+/* Секция Клиенты */
+
+.clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.clients-svg {
+  box-sizing: border-box;
+
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2490px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-svg {
+  color: #afb1b8;
+}
+
+.icon-clients {
+  fill: currentColor;
+}
+
+.clients-svg:hover,
+.clients-svg:focus {
+  background-color: #ffffff;
+  color: var(--accent-color);
+}
+
 /* Футер */
 
 .page-footer {
@@ -447,9 +503,72 @@ img {
   display: block;
 }
 
-.adress-list :hover,
-.adress-list :focus {
+.fotter-social-list :hover,
+.fotter-social-list :focus {
   color: var(--accent-color);
+}
+
+/* Футер иконки */
+
+.fotter-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotter-icon-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.fotter-soc-list {
+  display: flex;
+  align-items: center;
+  align-items: center;
+
+  margin-left: 70px;
+}
+
+.fotter-icon-desc {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.fotter-icon-desc:not(:last-child) {
+  margin-right: 10px;
+}
+
+.fotter-soc-link-link {
+  width: 100%;
+  height: 100%;
+  background-color: (var(--background-body));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.fotter-soc-link-link {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fotter-soc-link-link {
+  fill: currentColor;
+}
+
+.fotter-soc-link-link:hover {
+  background: var(--hover-focus-color);
 }
 
 /* Кнопки портфолио*/
@@ -503,6 +622,9 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3 - 60px);
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item:nth-child(3n) {
