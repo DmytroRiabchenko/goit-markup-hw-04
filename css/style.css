@@ -176,8 +176,8 @@ img {
 .hero {
   text-align: center;
   padding: 200px 0;
-  max-width: 1600;
-  min-height: 600;
+  max-width: 1600px;
+  min-height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -223,6 +223,21 @@ img {
 .btn:hover,
 .btn:focus {
   background: var(--hover-focus-color);
+}
+
+/* Иконки Переваг */
+
+.feature-svg {
+  width: 270px;
+  height: 120px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 /* Секция переваг */
@@ -306,6 +321,10 @@ img {
 .work-list-item {
   margin-right: 30px;
   text-align: center;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .work-list-item:last-child {
@@ -333,6 +352,46 @@ img {
 
 .work-list-item {
   background: #ffffff;
+}
+
+.ikon-team-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.icon-team-desc {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-team-desc:not(:last-child) {
+  margin-right: 10px;
+}
+
+.ikon-soc-link-link {
+  width: 100%;
+  height: 100%;
+  background-color: (var(--background-body));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.ikon-soc-link-link {
+  color: #afb1b8;
+}
+
+.icon-feature-team {
+  fill: currentColor;
+}
+
+.ikon-soc-link-link:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* Футер */
