@@ -516,11 +516,18 @@ img {
 
 /* Футер иконки */
 
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-grup {
+  display: inline-block;
+}
+
 .footer-icon {
-  width: 206px;
-  height: 80px;
-  left: 516px;
-  top: 2748px;
+  display: inline-block;
+  margin-left: 70px;
 }
 
 .footer-icon-text {
@@ -534,7 +541,6 @@ img {
 
   color: #ffffff;
 
-  display: flex;
   justify-content: center;
   align-items: center;
 
