@@ -474,7 +474,7 @@ img {
   text-decoration: none;
   margin-bottom: 20px;
 
-  display: block;
+  display: inline-block;
 }
 
 .footer-socials {
@@ -487,8 +487,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-
-  display: block;
 }
 
 .fotter-social-list:not(:last-child) {
@@ -505,8 +503,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-
-  display: block;
 }
 
 .fotter-social-list :hover,
@@ -516,7 +512,7 @@ img {
 
 /* Футер иконки */
 
-.container-footer {
+.container.footer {
   display: flex;
   align-items: baseline;
 }
@@ -551,7 +547,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
 }
 
 .footer-icon-desc {
