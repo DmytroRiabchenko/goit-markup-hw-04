@@ -45,6 +45,10 @@ img {
   display: block;
 }
 
+.section {
+  padding: 94px;
+}
+
 /* вторичный основоного текста #212121 */
 
 /* основной цвет текста #757575; */
@@ -84,6 +88,9 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+
+  display: flex;
+  align-items: center;
 }
 
 .logo-style {
@@ -272,7 +279,7 @@ img {
   color: var(--primary-text-color);
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
 }
 
@@ -358,7 +365,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
 }
 
 .icon-team-desc {
@@ -405,7 +411,6 @@ img {
 
   color: #212121;
 
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -414,8 +419,6 @@ img {
 
   width: 170px;
   height: 92px;
-  left: 215px;
-  top: 2490px;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -423,7 +426,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 94px;
 }
 
 .clients-list {
@@ -633,7 +635,9 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3 - 60px);
+}
 
+.portfolio-items:hover .portfolio-items:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
