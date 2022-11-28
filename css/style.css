@@ -162,6 +162,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  display: flex;
+  align-items: center;
 }
 
 .auth-nav :hover,
@@ -279,8 +282,10 @@ img {
   color: var(--primary-text-color);
 
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.71;
+
+  margin-top: 10px;
 }
 
 /* Секция работа */
@@ -362,6 +367,8 @@ img {
 }
 
 .ikon-team-list {
+  margin-top: 16px;
+
   display: flex;
   justify-content: center;
   align-items: center;
